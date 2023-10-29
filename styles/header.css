@@ -1,0 +1,26 @@
+.logo{
+    width: 118px;
+    object-fit: cover;
+}
+
+.nav_links{
+    font-size: 0.9em;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: var(--primary-transition);
+}
+
+.nav_links:hover{
+    color: var(--primary-color);
+}
+
+.sign_btn{
+    font-size: 1em;
+    color: var(--text-color);
+    font-weight: 600;
+    transition: var(--primary-transition);
+}
+
+.sign_btn:hover{
+    color: var(--primary-color);
+}
