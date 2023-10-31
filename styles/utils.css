@@ -59,6 +59,12 @@
   .p-4 {
     padding: 1em;
   }
+  .p-6 {
+    padding: 1.5em;
+  }
+  .p-8 {
+    padding: 2em;
+  }
   .pointer {
     cursor: pointer;
   }
