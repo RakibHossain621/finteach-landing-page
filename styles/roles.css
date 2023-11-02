@@ -1,0 +1,53 @@
+.roles_icon_description{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.roles_right .heading_title{
+    max-width: 500px;
+}
+.roles_right .single_feature_description{
+    max-width: 350px;
+}
+.icon{
+    color: green;
+    font-size: 1em;
+}
+
+.roles_left{
+    width: 45%;
+    position: relative;
+}
+
+.roles_right{
+    width: 45%;
+}
+
+.master_card_account_img{
+    width: 250px;
+    height: 166px;
+    object-fit: contain;
+    border-radius: 1em;
+    position: absolute;
+    bottom: -15%;
+    right: 5%;
+    box-shadow: 0px 20px 40px 0px rgba(63.9999999999)
+}
+
+.main_account_img{
+    width: 500px;
+    height: 440px;
+    object-fit: contain;
+}
+
+.master_card_img{
+    width: 200px;
+    height: 56px;
+    object-fit: contain;
+    border-radius: 1em;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    
+}
