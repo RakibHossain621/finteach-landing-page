@@ -1,0 +1,9 @@
+.Get .left{
+    width: 45%;
+}
+.Get .right{
+    width: 45%;
+}
+.Get .left .single_feature_description{
+    max-width: 362px;
+}
