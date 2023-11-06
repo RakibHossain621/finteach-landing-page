@@ -1,3 +1,10 @@
+/* .header{
+    position: sticky;
+    top: 0;
+    transition: var(--primary-transition);
+    background-color: var(--white-color);
+    z-index: 999;
+} */
 .logo{
     width: 118px;
     object-fit: cover;

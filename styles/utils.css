@@ -1,4 +1,6 @@
-
+.w-full{
+  width: 100%;
+}
 .m-1 {
     margin: 0.25em;
   }
