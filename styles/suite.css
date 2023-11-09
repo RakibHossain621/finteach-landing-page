@@ -1,0 +1,38 @@
+.suite-area .heading_title{
+    max-width: 550px;
+    text-align: center;
+}
+.suite-wrapper{
+    margin-top: 2em;
+}
+.suite-single{
+    background-color: var(--white-color);
+    padding: 1.5em;
+    box-shadow: 0px 30px 40px -10px rgba(31.999999999999993, 55.99999999999997, 84.99999999999996, 0.12);
+    border-radius: 20px;
+    width: 30%;
+    transition: var(--primary-transition);
+}
+.suite-single:hover{
+    transform: translateY(-10px);
+}
+.suite-single-icon{
+    background-color: #F2F2F2;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+.suite-single-icon i{
+    font-size: 20px;
+    color: var(--primary-color);
+}
+.suite-single h1{
+   margin-bottom: 0.5em;
+   color: var(--text-color);
+}
+.suite-single p{
+    color: var(--text-secondary-color);
+    line-height: 25px;
+    font-size: 0.9em;
+}
