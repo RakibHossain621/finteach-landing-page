@@ -1,0 +1,92 @@
+.testimonials{
+    background: var(--white-gray);
+    position: relative;
+    padding-top: 14em;
+    padding-bottom: 14em;
+}
+
+.testimonial_main {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left_position_img .card_img {
+    width: 360px;
+    object-fit: cover;
+    transform: rotate(-78deg);
+    position: absolute;
+    left: 10%;
+    bottom: 32%;
+    z-index: 1;
+}
+
+.left_position_img .card_img  img{
+    border-radius: 20px;
+}
+
+.left_position_img .hand_img {
+    width: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 8%;
+    transform: rotateY(180deg);
+}
+
+.right_position_img .card_img{
+    width: 330px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    right: 0px;
+    bottom: 5%;
+    z-index: 1;
+}
+
+.right_position_img .hand_img{
+    width: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    transform: rotate(10deg);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.avatar{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonial_content{
+    font-size: 1.8em;
+    font-weight: 500;
+    line-height: 35px;
+    max-width: 750px;
+    font-style: italic;
+}
+
+.testimonial_paginations{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5em;
+    align-items: flex-start;
+    width: 58%;
+    margin-top: 2em;
+}
+.testimonial_paginations .pagination{
+    width: 100px;
+    height: 2px;
+    background-color: #cacac8;
+    cursor: pointer;
+}
+
+.testimonial_paginations .pagination.active{
+    background-color: black;
+}
