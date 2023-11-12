@@ -31,3 +31,16 @@
 .sign_btn:hover{
     color: var(--primary-color);
 }
+
+@media (max-width:990px){
+    .nav_items{
+        display: none !important;
+    }
+    .right_button{
+        display: none !important;
+    }
+    .hero_title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
