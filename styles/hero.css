@@ -79,3 +79,32 @@
     left: 8%;
   }
 }
+
+
+@media (max-width:550px){
+  .hero_1 img{
+    width: 250px;
+  }
+  .hero_2 img{
+    width: 100px;
+    border-radius: 10px;
+  }
+  .hero_3{
+    right: 3%;
+  }
+  .hero_3 img{
+    width: 100px;
+    border-radius: 0px;
+  }
+  .hero_content_text{
+    justify-content: center;
+  }
+  .hero_button_group{
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero_button_group button{
+    width: 100%;
+  }
+ 
+}
