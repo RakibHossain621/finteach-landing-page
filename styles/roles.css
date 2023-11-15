@@ -51,3 +51,38 @@
     right: 1%;
     
 }
+
+@media (max-width:550px){
+    .roles_wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .single_feature_description{
+        text-align: center;
+        margin-top: 2.5em;
+    }
+
+    .roles_icon_wrapper{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .main_account_img{
+        width: 505px;
+    }
+    .master_card_img{
+        top: 50%;
+        right: -132%;
+    }
+    .master_card_account_img{
+        right: -66%;
+    }
+    .roles_right{
+        width: 100%;
+        
+    }
+   .roles_icon_single{
+    gap: 0.1em;
+    justify-content: center;
+   }
+}
