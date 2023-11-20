@@ -23,3 +23,15 @@
 .down_col  img{
     transform: translate(-15px, -14px);
 }
+
+@media (max-width:768px){
+    .Get .container{
+        flex-direction: column;
+    }
+    .Get .left{
+        width: 100%;
+    }
+    .Get .right{
+        width: 100%;
+    }
+}
