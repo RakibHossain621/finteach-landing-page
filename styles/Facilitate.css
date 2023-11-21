@@ -72,3 +72,36 @@
     top: 20px;
     right: -10%;
 }
+@media (max-width:1024px){
+    .Facilitate .container{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .Facilitate-imge{
+        width: 100%;
+        display: flex;
+       justify-content: center;
+         align-items: center;
+    }
+    .Facilitate-1{
+        
+    }
+    .Facilitate-1 img{
+        width: 300px;
+
+    }
+    .Facilitate-2 img{
+        width: 300px;
+    }
+    .Facilitate-3 img{
+        width: 300px;
+    }
+    .Facilitate-3{
+     
+    }
+    .Facilitate-4 img{
+        width: 150px;
+    }
+}

@@ -36,3 +36,18 @@
     line-height: 25px;
     font-size: 0.9em;
 }
+@media (max-width:990px){
+    
+    .suite-single{
+        width: 45%;
+    }
+    .suite-single h1{
+        font-size: 20px;
+    }
+}
+@media (max-width:550px){
+    
+    .suite-single{
+        width: 100%;
+    }
+}

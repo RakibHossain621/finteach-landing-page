@@ -90,3 +90,18 @@
 .testimonial_paginations .pagination.active{
     background-color: black;
 }
+@media (max-width:550px){
+
+    .left_position_img .hand_img{
+        width: 350px;
+    }
+    .right_position_img .hand_img{
+        display: none;
+    }
+    .testimonials{
+        padding-top:2em;
+    }
+    .right_position_img .card_img{
+        width: 150px;
+    }
+}
