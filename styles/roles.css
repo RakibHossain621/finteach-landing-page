@@ -1,127 +1,125 @@
-.roles_icon_description{
-    font-size: 18px;
-    line-height: 25px;
-    font-weight: 600;
-    color: var(--text-color);
+.roles_icon_description {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  color: var(--text-color);
 }
-.roles_right .heading_title{
-    max-width: 500px;
+.roles_right .heading_title {
+  max-width: 500px;
 }
-.roles_right .single_feature_description{
-    max-width: 350px;
+.roles_right .single_feature_description {
+  max-width: 350px;
 }
-.icon{
-    color: green;
-    font-size: 1em;
-}
-
-.roles_left{
-    width: 45%;
-    position: relative;
+.icon {
+  color: green;
+  font-size: 1em;
 }
 
-.roles_right{
-    width: 45%;
-}
-.roles_wrapper{
-    display: flex;
+.roles_left {
+  width: 45%;
+  position: relative;
 }
 
-.master_card_account_img{
-    width: 250px;
-    height: 166px;
-    object-fit: contain;
-    border-radius: 1em;
-    position: absolute;
-    bottom: -15%;
-    right: 5%;
-    box-shadow: 0px 20px 40px 0px rgba(63.9999999999)
+.roles_right {
+  width: 45%;
+}
+.roles_wrapper {
+  display: flex;
 }
 
-.main_account_img{
-    width: 500px;
-    height: 440px;
-    object-fit: contain;
+.master_card_account_img {
+  width: 250px;
+  height: 166px;
+  object-fit: contain;
+  border-radius: 1em;
+  position: absolute;
+  bottom: -15%;
+  right: 5%;
+  box-shadow: 0px 20px 40px 0px rgba(63.9999999999);
 }
 
-.master_card_img{
-    width: 200px;
-    height: 56px;
-    object-fit: contain;
-    border-radius: 1em;
-    position: absolute;
+.main_account_img {
+  width: 500px;
+  height: 440px;
+  object-fit: contain;
+}
+
+.master_card_img {
+  width: 200px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 1em;
+  position: absolute;
+  top: 50%;
+  right: 1%;
+}
+
+@media (max-width: 550px) {
+  .roles_wrapper {
+    flex-direction: column-reverse;
+  }
+  .single_feature_description {
+    text-align: center;
+    margin-top: 2.5em;
+  }
+  .main_account_img {
+    width: 300px !important;
+  }
+  .master_card_account_img{
+    width: 150px;
+  }
+  .master_card_img {
     top: 50%;
-    right: 1%;
-    
-}
-
-@media (max-width:550px){
-    .roles_wrapper{
-        flex-direction: column-reverse;
-    }
-    .single_feature_description{
-        text-align: center;
-        margin-top: 2.5em;
-    }
-    .main_account_img{
-        width: 505px;
-    }
-    .master_card_img{
-        top: 50%;
-        right: -132%;
-    }
-    .master_card_account_img{
-        right: -66%;
-    }
-    .roles_right{
-        width: 100%;
-        
-    }
-   .roles_icon_single{
+    right: 0%;
+  }
+  .master_card_account_img {
+    right: 0%;
+    bottom: 0%;
+  }
+  .master_card_img{
+    width: 150px;
+  }
+  .roles_right {
+    width: 100%;
+  }
+  .roles_icon_single {
     gap: 0.1em;
     justify-content: center;
-   }
+  }
+  .single_feature_description {
+    text-align: center;
+  }
 }
-@media (max-width:1024px){
-    .roles_wrapper{
-        flex-direction: column-reverse;
-    }
-    .single_feature_description{
-        text-align: center;
-        margin-top: 2.5em;
-    }
-    .main_account_img{
-        width: 505px;
-    }
-    .master_card_img{
-        top: 50%;
-        right: -132%;
-    }
-    .master_card_account_img{
-        right: -66%;
-    }
-    .roles_right{
-        width: 100%;
-        
-    }
-   .roles_icon_single{
+@media (max-width: 1024px) {
+  .roles_wrapper {
+    flex-direction: column-reverse;
+  }
+  .single_feature_description {
+    margin-top: 2.5em;
+  }
+  .main_account_img {
+    width: 505px;
+  }
+  .roles_right {
+    width: 100%;
+  }
+  .roles_icon_single {
     gap: 0.1em;
     justify-content: center;
-   }
-   .roles_left{
+  }
+  .roles_left {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-   }
-   .roles_right{
+  }
+  .roles_right {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   }
-   .roles_right .heading_title{
+  }
+  .roles_right .heading_title {
     text-align: center;
-   }
+  }
 }
-
