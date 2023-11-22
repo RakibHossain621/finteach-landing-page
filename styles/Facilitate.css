@@ -118,3 +118,27 @@
     width: 150px;
   }
 }
+@media (max-width: 550px){
+  .Facilitate-1 img {
+    width: 250px;
+}
+.Facilitate-2 img {
+  width: 250px;
+}
+.Facilitate-3{
+  top: 10px;
+  left: -1%;
+}
+.Facilitate-4 img{
+  width: 120px;
+}
+.Facilitate-4 {
+  right: -13%;
+}
+.Facilitate-1 {
+  left: -3%;
+}
+.Facilitate-2 {
+  bottom: -21%;
+}
+}
