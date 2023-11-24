@@ -72,3 +72,17 @@
     font-weight: bold;
 }
 
+@media (max-width:550px){
+    .subscriber_wrappper{
+        flex-direction: column;
+    }
+    .subscriber_title{
+        width: 100%;
+    }
+    .subscriber_input{
+        width: 100%;
+    }
+    .footer_navigation_wrapper{
+        
+    }
+}
