@@ -30,6 +30,7 @@
       rel="apple-touch-icon"
       href="https://pagebolt.uicore.co/fintech/wp-content/uploads/sites/4/2023/03/pagebolt-favicon.png"
     />
+
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/utils.css" />
     <link rel="stylesheet" href="./styles/header.css" />
@@ -43,6 +44,7 @@
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/Facilitate.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./styles/pointer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -85,9 +87,7 @@
             <i class="fa-solid fa-bars"></i>
           </div>
           <!-- Mobile Navigation Only Show Mobile Device -->
-          <ul
-            class="mobile_navigation d-flex flex-col gap-4"
-          >
+          <ul class="mobile_navigation d-flex flex-col gap-4">
             <li><a class="nav_links" href="#features">Features</a></li>
             <li>
               <a class="nav_links" href="#how_it_works">How it works</a>
@@ -610,5 +610,13 @@
     <!-- TODO:Footer End -->
 
     <script src="./js/app.js"></script>
+    <script src="./js/pointer.js"></script>
+    <script>
+      init_pointer({
+        pointerColor: "#ddf101",
+        ringSize: 20,
+        ringClickSize: 30,
+      });
+    </script>
   </body>
 </html>

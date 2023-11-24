@@ -43,27 +43,23 @@
 
 
 .mobile_navigation {
-    position: absolute;
-    top: 0px;
-    right: -320px;
+    position: fixed;
+    top: 0;
+    right: -100%;
     background: var(--secondary-color);
     color: var(--white-color);
-    width: 230px;
-    transition: var(--primary-transition);
+    width: 80%; 
+    max-width: 250px;
+    transition: right 0.5s ease-in-out;
     padding: 1.5em;
     z-index: 100000000;
-    visibility: hidden;
-    display: none;
     height: 100%;
+    overflow-y: auto;
 
 }
 
 .mobile_navigation.active{
     right: 0px;
-    visibility: visible;
-    display: flex;
-    transition: var(--primary-transition);
-
 }
 
 .overlay{

@@ -1,5 +1,6 @@
 .features{
     position: relative;
+    overflow: hidden;
 }
 .single_feature{
     background-color: var(--white-gray);

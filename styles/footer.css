@@ -74,15 +74,41 @@
 
 @media (max-width:550px){
     .subscriber_wrappper{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 2em;
     }
     .subscriber_title{
         width: 100%;
     }
     .subscriber_input{
         width: 100%;
+        padding:0.5em;
     }
     .footer_navigation_wrapper{
-        
+        flex-direction: column;
+    }
+    .footer_nav_item{
+       flex-wrap: wrap;
+    }
+    .footer_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        flex-direction: column;
+    }
+    
+    .footer_logo p {
+        margin-top: 0.6em;
+        max-width: 250px;
+        text-align: center;
+    }
+    
+    .footer_nav_single {
+        width: 45%;
+    }
+    
+    p.copyright_text {
+        text-align: center;
     }
 }
